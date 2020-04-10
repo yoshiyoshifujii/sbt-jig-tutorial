@@ -1,5 +1,4 @@
 package jig.tutorial.domain.model.product
 
-class Product {
-
+class Product(name: Name, price: Price) {
 }
