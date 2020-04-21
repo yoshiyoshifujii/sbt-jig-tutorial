@@ -12,3 +12,6 @@ bin
 
 .idea
 .credentials
+
+.bloop
+.metals
