@@ -102,7 +102,7 @@ jigModelPattern in jig := ".+\\.domain\\.(model|type)\\.[^$]+"
 `jigReports` を実行して `success` となればOKです。
 
 ```bash
-$ sbt ";clean;compile;jigReports"
+$ sbt clean compile jigReports
 ...
 
 (出力が完了しました。: {} ms,2775)ts 2s
